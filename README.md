@@ -1,8 +1,39 @@
-# React + Vite
+# TodoList 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Built with
 
-Currently, two official plugins are available:
+- React 
+- Redux 
+- Material UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Screenshot : 
+
+### No proejct Selected : -
+
+![](./src/assets/screenshots/projectNOtSelected.png)
+
+### Project Selected : - 
+
+![](./src/assets/screenshots/project.png)
+
+### Create Project : -
+
+![](./src/assets/screenshots/addProject.png)
+
+### Add Task : -
+
+![](./src/assets/screenshots/addTask.png)
+
+### Update Task : -
+
+![](./src/assets/screenshots/updateTask.png)
+
+
+### Add SubTask : -
+
+![](./src/assets/screenshots/addSubtask.png)
+
+### Project With Tasks & SubTasks:- 
+
+![](./src/assets/screenshots/projectwithTasks.png)
+
