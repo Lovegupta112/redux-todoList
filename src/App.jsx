@@ -5,6 +5,7 @@ import PageInfo from './components/PageInfo';
 import HomePage from './components/HomePage';
 import NoCurrentProjectUi from './app/features/project/NoCurrentProjectUi';
 import './App.css';
+import NoMatchPage from './components/common/NoMatchPageUi';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='' element={<NoCurrentProjectUi />} />
          <Route path='/project/:id' element={<PageInfo />} />
         </Route>
+        <Route path='*' element={<NoMatchPage />}/>
       </Routes>
    </>
   )
